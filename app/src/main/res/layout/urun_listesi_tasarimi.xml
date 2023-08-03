@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <!-- Ürün Adı -->
+
+    <!-- Ürün Açıklaması -->
+
+    <!-- Ürün Fiyatı -->
+
+    <!-- Şimdi Satın Al Butonu -->
+
+
+    <!-- Ürün Adı -->
+
+    <!-- Ürün Açıklaması -->
+
+    <!-- Ürün Fiyatı -->
+
+    <!-- Şimdi Satın Al Butonu -->
+
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="123dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginBottom="108dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shoes"
+        app:layout_constraintBottom_toTopOf="@+id/textViewProductName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewProductName"
+        android:layout_width="168dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="46dp"
+        android:text="Ürün Adı"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewProductPrice1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewProduct" />
+
+    <TextView
+        android:id="@+id/textViewProductDescription"
+        android:layout_width="180dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="14dp"
+        android:text="Ürün Açıklaması"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewProductPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBuyNow" />
+
+    <!-- Ürün Adı -->
+
+    <TextView
+        android:id="@+id/textViewProductPrice"
+        android:layout_width="284dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="73dp"
+        android:text="Ürün Fiyatı"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProductDescription" />
+
+    <Button
+        android:id="@+id/buttonBuyNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Şimdi Satın Al"
+        app:layout_constraintBottom_toTopOf="@+id/textViewProductDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBuyNow2" />
+
+    <ImageView
+        android:id="@+id/imageViewProduct1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sweat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewProductName1"
+        android:layout_width="171dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="27dp"
+        android:text="Ürün Adı"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewProductDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewProduct2" />
+
+    <TextView
+        android:id="@+id/textViewProductDescription1"
+        android:layout_width="278dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="172dp"
+        android:text="Ürün Açıklaması"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBuyNow2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProductName2" />
+
+    <TextView
+        android:id="@+id/textViewProductPrice1"
+        android:layout_width="157dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="324dp"
+        android:text="Ürün Fiyatı"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProductName" />
+
+    <Button
+        android:id="@+id/buttonBuyNow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Şimdi Satın Al"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toEndOf="@+id/imageViewProduct"
+        app:layout_constraintTop_toTopOf="@+id/textViewProductName2" />
+
+    <ImageView
+        android:id="@+id/imageViewProduct2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewProduct1" />
+
+    <!-- Ürün Açıklaması -->
+
+    <!-- Ürün Fiyatı -->
+
+    <!-- Şimdi Satın Al Butonu -->
+
+    <TextView
+        android:id="@+id/textViewProductName2"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="17dp"
+        android:text="Ürün Adı"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewProductDescription1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewProductDescription2"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ürün Açıklaması"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewProductPrice1"
+        app:layout_constraintEnd_toEndOf="@+id/buttonBuyNow2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewProduct1" />
+
+    <TextView
+        android:id="@+id/textViewProductPrice2"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ürün Fiyatı"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBuyNow1" />
+
+    <Button
+        android:id="@+id/buttonBuyNow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="190dp"
+        android:text="Şimdi Satın Al"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBuyNow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toEndOf="@+id/imageViewProduct1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProductDescription1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
