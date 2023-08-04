@@ -6,23 +6,6 @@
 
     android:layout_height="match_parent">
 
-    <!-- Ürün Adı -->
-
-    <!-- Ürün Açıklaması -->
-
-    <!-- Ürün Fiyatı -->
-
-    <!-- Şimdi Satın Al Butonu -->
-
-
-    <!-- Ürün Adı -->
-
-    <!-- Ürün Açıklaması -->
-
-    <!-- Ürün Fiyatı -->
-
-    <!-- Şimdi Satın Al Butonu -->
-
     <ImageView
         android:id="@+id/imageViewProduct"
         android:layout_width="123dp"
@@ -152,12 +135,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewProduct1" />
-
-    <!-- Ürün Açıklaması -->
-
-    <!-- Ürün Fiyatı -->
-
-    <!-- Şimdi Satın Al Butonu -->
 
     <TextView
         android:id="@+id/textViewProductName2"

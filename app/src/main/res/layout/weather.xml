@@ -7,9 +7,6 @@
     android:layout_height="match_parent"
     android:background="#1F818E">
 
-
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="0dp"
@@ -223,8 +220,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
 
     <TextView
         android:id="@+id/textView3"
@@ -415,7 +410,7 @@
         app:layout_constraintTop_toTopOf="@+id/searchView" />
 
 
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 
 
     <com.google.android.material.tabs.TabLayout
